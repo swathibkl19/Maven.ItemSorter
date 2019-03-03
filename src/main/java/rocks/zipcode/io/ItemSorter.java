@@ -21,8 +21,9 @@ public class ItemSorter {
     public Item[] sort(Comparator<Item> comparator) {
         Collections.sort(itemList ,comparator);
         Item[] resultList = new Item[itemList.size()];
-     resultList = itemList.toArray(resultList);
-     return resultList;
+         resultList = itemList.toArray(resultList);
+
+         return resultList;
 
     }
 }
